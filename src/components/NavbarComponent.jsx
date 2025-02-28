@@ -5,9 +5,9 @@ function NavbarComponent() {
     <Navbar>
       <Container>
         <div>
-          <Navbar.Brand href="/waysite-react.github.io" className="text-white fs-4">
+          <NavLink to="/waysite-react.github.io/home" className="text-white fs-4">
             WAY RESEARCH & TECHNOLOGY
-          </Navbar.Brand>
+          </NavLink>
         </div>
         <div>
           <Nav className="ms-auto">
