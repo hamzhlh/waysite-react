@@ -7,6 +7,9 @@ import PortofolioPage from "./pages/PortofolioPage"
 import ProdServPage from "./pages/ProdServPage"
 import ContactUs from "./pages/ContactUs"
 import NavbarComponent from "./components/NavbarComponent"
+import ItSolutionPage from "./pages/ItSolutionPage"
+import TeleSolutionPage from "./pages/TeleSolutionPage"
+import CyberSolutionPage from "./pages/CyberSolutionPage"
 function App() {
 
   return (
@@ -19,6 +22,10 @@ function App() {
         <Route path="/waysite-react.github.io/portofolio" Component={PortofolioPage}/>
         <Route path="/waysite-react.github.io/blog" Component={BlogPage}/>
         <Route path="/waysite-react.github.io/contact" Component={ContactUs}/>
+
+        <Route path="/waysite-react.github.io/product/itsolution" Component={ItSolutionPage} />
+        <Route path="/waysite-react.github.io/product/telecomsolution" Component={TeleSolutionPage} />
+        <Route path="/waysite-react.github.io/product/cybersecurity" Component={CyberSolutionPage} />
       </Routes>
     </div>
   )
