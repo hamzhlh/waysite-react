@@ -82,14 +82,14 @@ function NavbarComponent() {
               >
                 <NavDropdown.Item
                   as={NavLink}
-                  to="/waysite-react.github.io/service/itsolution"
+                  to="/waysite-react.github.io/product/deepsight"
                   onClick={(e) => e.stopPropagation()} // Prevent bubbling
                 >
                   Deep Sight
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   as={NavLink}
-                  to="/waysite-react.github.io/service/telecomsolution"
+                  to="/waysite-react.github.io/product/tutella"
                   onClick={(e) => e.stopPropagation()} // Prevent bubbling
                 >
                   Tutella
