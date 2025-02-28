@@ -5,14 +5,14 @@ function NavbarComponent() {
     <Navbar>
       <Container>
         <div>
-          <Navbar.Brand href="/waysite-react.github.io/" className="text-white fs-4">
+          <Navbar.Brand href="/waysite-react.github.io/home" className="text-white fs-4">
             WAY RESEARCH & TECHNOLOGY
           </Navbar.Brand>
         </div>
         <div>
           <Nav className="ms-auto">
             <NavLink
-              to="/waysite-react.github.io/"
+              to="/waysite-react.github.io/home"
               className={({ isActive }) =>
                 isActive ? "text-white p-3 active-link" : "text-white p-3"
               }

@@ -13,7 +13,7 @@ function App() {
     <div className="app-background">
       <NavbarComponent/>
       <Routes>
-        <Route path="/waysite-react.github.io/" Component={HomePage}/>
+        <Route path="/waysite-react.github.io/home" Component={HomePage}/>
         <Route path="/waysite-react.github.io/about" Component={AboutUsPage}/>
         <Route path="/waysite-react.github.io/product" Component={ProdServPage}/>
         <Route path="/waysite-react.github.io/portofolio" Component={PortofolioPage}/>
