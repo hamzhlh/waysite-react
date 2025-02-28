@@ -13,12 +13,12 @@ function App() {
     <div className="app-background">
       <NavbarComponent/>
       <Routes>
-        <Route path="/" Component={HomePage}/>
-        <Route path="/about" Component={AboutUsPage}/>
-        <Route path="/product" Component={ProdServPage}/>
-        <Route path="/portofolio" Component={PortofolioPage}/>
-        <Route path="/blog" Component={BlogPage}/>
-        <Route path="/contact" Component={ContactUs}/>
+        <Route path="/waysite-react.github.io/" Component={HomePage}/>
+        <Route path="/waysite-react.github.io/about" Component={AboutUsPage}/>
+        <Route path="/waysite-react.github.io/product" Component={ProdServPage}/>
+        <Route path="/waysite-react.github.io/portofolio" Component={PortofolioPage}/>
+        <Route path="/waysite-react.github.io/blog" Component={BlogPage}/>
+        <Route path="/waysite-react.github.io/contact" Component={ContactUs}/>
       </Routes>
     </div>
   )
