@@ -5,14 +5,14 @@ function NavbarComponent() {
     <Navbar>
       <Container>
         <div>
-          <Navbar.Brand href="/" className="text-white fs-4">
+          <Navbar.Brand href="/waysite-react.github.io/" className="text-white fs-4">
             WAY RESEARCH & TECHNOLOGY
           </Navbar.Brand>
         </div>
         <div>
           <Nav className="ms-auto">
             <NavLink
-              to="/"
+              to="/waysite-react.github.io/"
               className={({ isActive }) =>
                 isActive ? "text-white p-3 active-link" : "text-white p-3"
               }
@@ -20,7 +20,7 @@ function NavbarComponent() {
               HOME
             </NavLink>
             <NavLink
-              to="/about"
+              to="/waysite-react.github.io/about"
               className={({ isActive }) =>
                 isActive ? "text-white p-3 active-link" : "text-white p-3"
               }
@@ -28,7 +28,7 @@ function NavbarComponent() {
               ABOUT US
             </NavLink>
             <NavLink
-              to="/product"
+              to="/waysite-react.github.io/product"
               className={({ isActive }) =>
                 isActive ? "text-white p-3 active-link" : "text-white p-3"
               }
@@ -36,7 +36,7 @@ function NavbarComponent() {
               PRODUCT & SERVICE
             </NavLink>
             <NavLink
-              to="/portofolio"
+              to="/waysite-react.github.io/portofolio"
               className={({ isActive }) =>
                 isActive ? "text-white p-3 active-link" : "text-white p-3"
               }
@@ -44,7 +44,7 @@ function NavbarComponent() {
               PORTOFOLIO
             </NavLink>
             <NavLink
-              to="/blog"
+              to="/waysite-react.github.io/blog"
               className={({ isActive }) =>
                 isActive ? "text-white p-3 active-link" : "text-white p-3"
               }
@@ -52,7 +52,7 @@ function NavbarComponent() {
               BLOG
             </NavLink>
             <NavLink
-              to="/contact"
+              to="/waysite-react.github.io/contact"
               className={({ isActive }) =>
                 isActive ? "text-white p-3 active-link" : "text-white p-3"
               }
