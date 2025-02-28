@@ -19,7 +19,7 @@ function ProdServPage() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <button
             className="learn-more-btn"
-            onClick={() => navigate("/waysite-react.github.io/product/itsolution")}
+            onClick={() => navigate("/waysite-react.github.io/service/itsolution")}
           >
             Learn More
           </button>
@@ -31,7 +31,7 @@ function ProdServPage() {
           <button
             className="learn-more-btn"
             onClick={() =>
-              navigate("/waysite-react.github.io/product/telecomsolution")
+              navigate("/waysite-react.github.io/service/telecomsolution")
             }
           >
             Learn More
@@ -44,7 +44,7 @@ function ProdServPage() {
           <button
             className="learn-more-btn"
             onClick={() =>
-              navigate("/waysite-react.github.io/product/cybersecurity")
+              navigate("/waysite-react.github.io/service/cybersecurity")
             }
           >
             Learn More
