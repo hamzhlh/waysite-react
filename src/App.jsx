@@ -1,5 +1,5 @@
 
-import {Routes, Route} from "react-router-dom"
+import {Routes, Route, Navigate} from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import AboutUsPage from "./pages/AboutUsPage"
 import BlogPage from "./pages/BlogPage"
@@ -19,6 +19,7 @@ function App() {
     <div className="app-background">
       <NavbarComponent/>
       <Routes>
+        <Route path="/waysite-react.github.io/" element={<Navigate to="/waysite-react.github.io/home" />} />
         <Route path="/waysite-react.github.io/home" Component={HomePage}/>
         <Route path="/waysite-react.github.io/about" Component={AboutUsPage}/>
         <Route path="/waysite-react.github.io/service" Component={ProdServPage}/>
