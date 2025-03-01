@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import { NavLink, useNavigate } from "react-router-dom";
+import WayLogo from '../assets/img/WAY Logo no BG hi res-trans-01.png';
 
 function NavbarComponent() {
   const [showProductService, setShowProductService] = useState(false);
@@ -26,12 +27,16 @@ function NavbarComponent() {
   return (
     <Navbar expand="lg" className="custom-navbar">
       <Container>
-        <div>
+        <div >
           <NavLink
             to="/waysite-react.github.io/home"
             className="text-white fs-4"
             onClick={handleMenuClick}
           >
+            <img src={WayLogo} alt="logo" style={{ 
+              width:"64px",
+              height:"auto"
+             }}/>
             WAY RESEARCH & TECHNOLOGY
           </NavLink>
         </div>

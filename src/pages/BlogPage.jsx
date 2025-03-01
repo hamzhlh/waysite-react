@@ -12,7 +12,7 @@ function BlogPage() {
       <div className="blog-grid">
         <div className="blog-box">
         <div className="blog-detail">
-          <h3>IT SOLUTION CONSULTING</h3>
+          <h4>IT SOLUTION CONSULTING</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
           <button
@@ -25,7 +25,7 @@ function BlogPage() {
 
         <div className="blog-box">
         <div className="blog-detail">
-          <h3>TELECOMMUNICATION SOLUTION CONSULTING</h3>
+          <h4>TELECOMMUNICATION SOLUTION CONSULTING</h4>
           <p>Nulla facilisi. Integer convallis dolor sed sapien scelerisque facilisis.</p>
         </div>
           <button
@@ -40,7 +40,7 @@ function BlogPage() {
 
         <div className="blog-box">
           <div className="blog-detail">
-          <h3>CYBERSECURITY SOLUTION</h3>
+          <h4>CYBERSECURITY SOLUTION</h4>
           <p>Suspendisse vel nisi nec purus dictum tincidunt a a nisl.</p>
           </div>
           <button
